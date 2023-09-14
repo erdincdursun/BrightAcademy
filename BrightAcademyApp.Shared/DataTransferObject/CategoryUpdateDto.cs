@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrightAcademyApp.Entity.Concrete
+namespace BrightAcademyApp.Shared.DataTransferObject
 {
-    public class Trainees
+    public class CategoryUpdateDto
     {
     }
 }

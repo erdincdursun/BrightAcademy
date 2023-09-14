@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrightAcademyApp.Entity.Concrete
+namespace BrightAcademyApp.Business.Abstract
 {
-    public class Trainers
+    public class ISettingsService
     {
     }
 }

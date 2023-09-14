@@ -1,0 +1,30 @@
+                               Bright Akademi Bitirme Projesi 
+ 
+İstenilenler:
+1) Bright Akademi adlı bir kurum için bir web uygulaması hazırlanacaktır.
+2) Uygulamanın amacı, akademide verilen eğitim hizmetlerinin tanıtımı ve uygulama üzerinden
+alışverişin yapılmasını sağlamaktır.
+3) Uygulamada veri tabanı olarak SqLite kullanılacakGr. Veritabanı adı “akademiwebDb” olarak
+belirlenecektir.
+
+
+Proje hedef :
+ *2 Hafta Backend
+ *1 Hafta Frontend
+ *1 Hafta Mobile 
+
+Proje Başladığım Tarihi:02.09.2023
+
+                 -----Proje Başlama--------
+
+-Proje bilgilendirme dökümanını detaylı olarak okudum ve projenin backend tarafından başlamak için
+veritabanı tasarımın nasıl olacağını, entitylerin birbiriyle olan ilişiklerini kurguladım ve kağıt üzerinde bu kurguya çalıştım.
+
+-Projeye boş bir solution oluşturarak başladım. Ve sırasıyla Entity, Data, Business,Shared ve Api projelerini ekledim.Kağıt üzerinde çalışarak belirlediğim entitylerimi oluşturdum. Data katmanına geçerek ilk olarak EntityFrameworkCore, Design ve Sqlite paketlerini kurdum.
+
+             -----Proje Aşamaları-----
+İlk olarak entityleri veritabanında oluşturacak DbContext classını oluşturdum.Context classının veritabanına bağlanabilme işlemini IoC'da yapmak için program.cs'de connectionString tanımlamasını yaptım. Sonrasında config dosyasına entityler için fake dataları oluşturacak configleri yazdım.Yazmış olduğum fake dataları veritabanına yansıtma için context içerisinde dbsetleri yazdım. User kısmında 3 farklı user olacağından Trainers, Trainee ve User adında 3 entity oluşturdum. Bu 3 entity'i IdentityUser classından miras aldırdım. ModelBuilder'a bir extension yazarak burada kullancıları ayrı ayrı oluşturdum. Identity paketini projeme dahil ettim. Bu oluşturma sonrası context classına ilave ederek migration ve database update işlemi ile veritabanını oluşmasını sağladım. 
+
+-Business ve Data katmanında Crud işlemlerini sağlayacak kodları yazdım. Api katmanında controller oluşturarak verileri çekmeyi test ettim.
+
+*API kısmı için hedeflediğim süre 2 hafta hızlı bir şekilde kalan işleri tamamlamaya çalışıyorum. Şuanda controllerda tüm istekleri karşılacak actionları tamamlamaya devam ediyorum. Daha sonra postman üzerinden testleri tamamladıktan sonra hızlı bir şekilde React tarafına geçmeyi planlıyorum.

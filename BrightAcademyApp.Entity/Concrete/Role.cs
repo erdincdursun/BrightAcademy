@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace BrightAcademyApp.Entity.Concrete
 {
-    public class Courses
+    public class Role : IdentityRole
     {
-
+        public string Description { get; set; }
     }
 }

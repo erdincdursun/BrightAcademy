@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrightAcademyApp.Data\BrightAcademyApp.Data.csproj" />
+    <ProjectReference Include="..\BrightAcademyApp.Shared\BrightAcademyApp.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
