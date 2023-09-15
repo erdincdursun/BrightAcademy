@@ -44,5 +44,22 @@ namespace BrightAcademyApp.API.Controllers
             var response = await _categoryManager.CreateAsync(categoryCreateDto);
             return CreateActionResult(response);
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+            var response = await _categoryManager.DeleteAsync(id);
+            if (response.IsSucceeded)
+            {
+                return CreateActionResult(response);
+            }
+            return BadRequest();
+        }
+        [HttpPut]
+        public async Task<IActionResult> Update(int id,CategoryDto categoryDto)
+        {
+            _categoryManager.UpdateAsync(id, categoryDto);
+            return NoContent(); //204
+        }
     }
 }

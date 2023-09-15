@@ -14,8 +14,8 @@ namespace BrightAcademyApp.Business.Abstract
         Task<Response<CourseDto>> GetByIdAsync(int? id);
         Task<Response<List<CourseDto>>> GetAllAsync();
         Task<Response<CourseDto>> CreateAsync(CourseCreateDto courseCreateDto);
-        Response<NoContent> Update(CourseDto courseDto);
-        Task<Response<NoContent>> Delete(int id);
+        Task<Response<NoContent>> UpdateAsync(int id,CourseDto courseDto);
+        Task<Response<NoContent>> DeleteAsync(int id);
 
 
         Task<Response<List<CourseDto>>> GetCoursesFullDataAsync(bool? isActive = null);

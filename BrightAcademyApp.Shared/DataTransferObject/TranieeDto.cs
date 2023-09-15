@@ -8,7 +8,7 @@ namespace BrightAcademyApp.Shared.DataTransferObject
 {
     public class TranieeDto
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Education { get; set; }
@@ -16,5 +16,6 @@ namespace BrightAcademyApp.Shared.DataTransferObject
         public DateTime? DateOfBirth { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
+        public string Role { get; set; }
     }
 }

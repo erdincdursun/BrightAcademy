@@ -30,9 +30,15 @@ namespace BrightAcademyApp.Business.Concrete
             return Response<CategoryDto>.Success(_mapper.Map<CategoryDto>(newCategory), 201);
         }
 
-        public Task<Response<NoContent>> Delete(int id)
+        public async Task<Response<NoContent>> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var deletedCategory = await _categoryRepository.GetByIdAsync(id);
+            if (deletedCategory == null)
+            {
+                return Response<NoContent>.Fail("Böyle bir kategori yok.", 401);
+            }
+            _categoryRepository.Delete(deletedCategory);
+            return Response<NoContent>.Success(203);
         }
 
         public async Task<Response<List<CategoryDto>>> GetAllAsync()
@@ -57,9 +63,15 @@ namespace BrightAcademyApp.Business.Concrete
             return Response<CategoryDto>.Success(categoryDto, 200);
         }
 
-        public Response<NoContent> Update(CategoryDto categoryDto)
+        public async Task<Response<NoContent>> UpdateAsync(int id, CategoryDto categoryDto)
         {
-            throw new NotImplementedException();
+            var category = await _categoryRepository.GetByIdAsync(id);
+            if (category is null) return Response<NoContent>.Fail("Böyle bir kategori yok", 401);
+
+            //Mapping
+           var categoryUpdate = _mapper.Map<Category>(categoryDto);
+            _categoryRepository.Update(categoryUpdate);
+            return Response<NoContent>.Success(204);
         }
     }
 }

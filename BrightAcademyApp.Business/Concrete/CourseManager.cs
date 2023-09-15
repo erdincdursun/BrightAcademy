@@ -30,7 +30,7 @@ namespace BrightAcademyApp.Business.Concrete
             return Response<CourseDto>.Success(_mapper.Map<CourseDto>(newCourse), 201);
         }
 
-        public async Task<Response<NoContent>> Delete(int id)
+        public async Task<Response<NoContent>> DeleteAsync(int id)
         {
             var deletedCourse = await _courseRepository.GetByIdAsync(id);
             if (deletedCourse == null) return Response<NoContent>.Fail("Böyle bir kurs yok", 401);
@@ -73,11 +73,6 @@ namespace BrightAcademyApp.Business.Concrete
             
         }
 
-        public Response<NoContent> Update(CourseDto courseDto)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<Response<CourseDto>> GetCourseByIdAsync(int id)
         {
             var course = await _courseRepository.GetCourseByIdAsync(id);
@@ -87,6 +82,17 @@ namespace BrightAcademyApp.Business.Concrete
                 return Response<CourseDto>.Success(courseDto, 200);
             }
             return Response<CourseDto>.Fail("Kurs bulunamadı.", 401);
+        }
+
+        public async Task<Response<NoContent>> UpdateAsync(int id, CourseDto courseDto)
+        {
+            var course = await _courseRepository.GetByIdAsync(id);
+            if (course is null) return Response<NoContent>.Fail("Böyle bir kurs yok", 401);
+
+            //Mapping
+            var courseUpdate = _mapper.Map<Course>(courseDto);
+            _courseRepository.Update(courseUpdate);
+            return Response<NoContent>.Success(204);
         }
     }
 }

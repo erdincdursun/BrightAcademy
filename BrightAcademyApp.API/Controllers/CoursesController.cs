@@ -35,10 +35,26 @@ namespace BrightAcademyApp.API.Controllers
         }
         [HttpPost]
         [Route("/api/[controller]/CreateCourse")]
-        public async Task<IActionResult> SaveBook(CourseCreateDto courseCreateDto)
+        public async Task<IActionResult> CreateCourse(CourseCreateDto courseCreateDto)
         {
             var response = await _courseManager.CreateAsync(courseCreateDto);
             return CreateActionResult(response);
+        }
+        [HttpDelete]
+        public async Task<IActionResult> DeleteCourse(int id)
+        {
+            var response = await _courseManager.DeleteAsync(id);
+            if (response.IsSucceeded)
+            {
+                return CreateActionResult(response);
+            }
+            return BadRequest();
+        }
+        [HttpPut]
+        public async Task<IActionResult> UpdateCourse(int id, CourseDto courseDto)
+        {
+            _courseManager.UpdateAsync(id, courseDto);
+            return NoContent(); //204
         }
     }
 }

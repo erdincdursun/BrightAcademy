@@ -22,6 +22,7 @@ namespace BrightAcademyApp.Shared.DataTransferObject
         public bool EducationStatus { get; set; }
         public string ImageUrl { get; set; }
         public decimal Price { get; set; }
+        public bool IsActive { get; set; } = true;
         public List<CategoryDto> Categories { get; set; }
         public List<TranieeDto> Traniees { get; set; }
         public List<TranierDto> Traniners { get; set; }
