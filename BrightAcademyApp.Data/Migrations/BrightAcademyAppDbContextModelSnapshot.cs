@@ -155,10 +155,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 600,
                             Description = "Full stack developer olarak çalışan uzmanlar, yazılımların back-end (arka katman) ve front-end(ön katman) olarak nitelendirilen bölümlerinde rol almaktadırlar.",
                             EducationEvaluation = "Web kariyeri açısından çok faydalı bir eğitim.",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(990),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8036),
                             EducationGains = "Bu eğitim sayesinde; Temel ve ileri veritabanı mantığını,· Web’in ve yazılımın çalışma prensibini ve tüm süreçlerini,· Yeni nesil tüm programlama araç ve dillerini,· Back end programlamayı ve API yazmayı,· Uçtan uca bir proje geliştirmeyi öğreneceksiniz",
                             EducationLevel = "Medium",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(935),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8004),
                             EducationStatus = true,
                             EducationTime = 6,
                             EducationTitle = "Temel Programlama : • C# ile Programlama• Değişkenler• Veri Tipleri, Tip Dönüşümleri• Hata Kontrolü, Özel Fonksiyonlar• Döngüler, Koşullu İfadeler• Diziler",
@@ -175,10 +175,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 80,
                             Description = "Katılımcıların C# programlama dilini kullanarak farklı platformlarda uygulama geliştirebilecek eğitimlere katılma yeterliliğini elde etmelerini sağlamaktır.",
                             EducationEvaluation = "Temel Programlama açısından çok faydalı bir eğitim.",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1010),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8047),
                             EducationGains = "Bu eğitim sayesinde; Herhangi bir programlama bilgi ve becerisine sahip olmayan her kişinin  C# programlama dilinin en temel özelliklerini kolaylıkla öğrenebileceği başlangıç seviyesinde bir eğitimdir. Bu eğitimle C# programlama dilinin en temel özellikleri öğretilecektir.",
                             EducationLevel = "Easy",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1009),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8047),
                             EducationStatus = true,
                             EducationTime = 2,
                             EducationTitle = "Temel Programlama: Değişkenler,Koşullar,Döngüler,Diziler, Visual Studio Code",
@@ -195,10 +195,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 180,
                             Description = "Bu eğitimin amacı, Java programlama dilini bilenlerin sektörde en yaygın kullanılan teknolojilere adaptasyonunu sağlamaktır.",
                             EducationEvaluation = "Web kariyeri açısından çok faydalı bir eğitim.",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1013),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8091),
                             EducationGains = "Java'yı gerçek projelerde kullanıldığı gibi sıfırdan öğrenecek,Java ile Nesne Yönelimli Programlama (OOP) yapabilecek,SOLID yazılım geliştirme prensiplerini öğrenecek,Tasarım Desenlerine (Design Patterns) giriş yapacak,Sektörde en çok kullanılan Java teknolojilerini öğrenecek.",
                             EducationLevel = "Senior",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1013),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8091),
                             EducationStatus = true,
                             EducationTime = 4,
                             EducationTitle = "Spring Boot, Maven, Spring Rest servisi ile backend",
@@ -215,10 +215,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 120,
                             Description = "Bu eğitim; React Native ile HTML, CSS ve JavaScript dillerini kullanımını, Visual Studio Code ortamında, Android ve iOS işletim sistemleri için mobil uygulama geliştirmenin detaylarını kapsamaktadır..",
                             EducationEvaluation = "Mobile alanda çalışmak adına çok faydalı bir eğitim.",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1015),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8095),
                             EducationGains = "Bu eğitim sayesinde; Mobil programlamaya dair herşeyi öğreneceksiniz",
                             EducationLevel = "Medium",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1015),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8094),
                             EducationStatus = true,
                             EducationTime = 3,
                             EducationTitle = "HTML,CSS,JavaScript,Proje Oluşturma,Component Nedir? Cihaz Yönetimi Web Servis Kullanımı Push Notification Mobil Project Development Market",
@@ -235,10 +235,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 80,
                             Description = "Bu eğitimin amacı Flutter ile Mobil Geliştirmeyi sıfırdan ileri seviyeye gelecek şekilde öğretmektir.",
                             EducationEvaluation = "Mobile alanda çalışmak adına çok faydalı bir eğitim.",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1026),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8104),
                             EducationGains = "Bu eğitim sayesinde; Mobil programlamaya dair herşeyi öğreneceksiniz",
                             EducationLevel = "Medium",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1026),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8104),
                             EducationStatus = true,
                             EducationTime = 2,
                             EducationTitle = "HTML,CSS,JavaScript,Proje Oluşturma,Component Nedir? Cihaz Yönetimi Web Servis Kullanımı Push Notification Mobil Project Development Market",
@@ -255,10 +255,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 80,
                             Description = "Katılımcıların 3 boyutlu Unity uzayına hakimiyet sağlayarak seviye tasarımları geliştirecek bilgi birikimine ulaşmaları ve C# programlama dili yardımı ile bu görsel süreçleri çalışır bir yapı haline dönüştürmelerini sağlamaktır.",
                             EducationEvaluation = "Oyun geliştirme sürecine hâkim olmak isteyenler için çok faydalı bir eğitim.",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1028),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8106),
                             EducationGains = "Unity oyun motoru ile oyun geliştirebilir,3 boyutlu seviye tasarımları oluşturabilir,C# programlama dili ile programlama yapabilir.",
                             EducationLevel = "Medium",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1028),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8106),
                             EducationStatus = true,
                             EducationTime = 2,
                             EducationTitle = "Eğitimimize önce 3 boyutlu Unity uzayına hakimiyet sağlayarak başlayacağız, daha sonrasında çevre tasarımları geliştirecek ardından ise programlama tarafına odaklanacağız. Bu alanda yaptığımız çalışmaları tamamladıktan sonra ise üç ayrı oyun örneği ile öğrendiklerimizi uygulamaya geçireceğiz",
@@ -275,10 +275,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 120,
                             Description = "Bu eğitimin amacı çeşitli Python kütüphanelerini kullanarak farklı araçların Python ile nasıl entegre edilebileceğini öğrenip, Python ile siber güvenlik kapsamında kullanılabilecek uygulamalar geliştirebilmesini sağlamaktır.",
                             EducationEvaluation = "Siber güvenlik alanına ilgi kişiler,Siber güvenlik kapsamında kendi aracını geliştirmek isteyenler için güzel bir eğitim,",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1030),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8108),
                             EducationGains = " Siber güvenlik için Python ile araç geliştirebilir. Farklı uygulamaları Python ile otomatize edebilir. Web kazıma yapabilir..",
                             EducationLevel = "Sen,or",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1030),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8108),
                             EducationStatus = true,
                             EducationTime = 4,
                             EducationTitle = "Bu eğitimde ilk olarak Python programlamaya giriş yapılacak ve çeşitli Python kütüphaneleri kullanılacak sonrasında Socket programlama ile ağ sızma ve web kazıma öğretilecektir.",
@@ -295,10 +295,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 80,
                             Description = "Oracle veritabanı ile ilgili, kurulum ve konfigurasyonlar adım adım anlatılacak ve Oracle Veritabanı Mimarisi, Oracle Networking gibi Veritabanı Yöneticiliği Temel Bilgiler örneklendirilecektir.",
                             EducationEvaluation = "Günümüzde Veri Bilimi, Makine Öğrenmesi, Yapay Zekâ, Büyük Veri gibi kavramlar oldukça popüler. Bu kavram ve teknolojileri besleyen asıl yapı verinin kendisidir.",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1032),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8110),
                             EducationGains = "Oracle Veritabanı Mimarisi ve Temel Bilgiler konularına hakim olur,.",
                             EducationLevel = "Medium",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1032),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8110),
                             EducationStatus = true,
                             EducationTime = 2,
                             EducationTitle = "Kurs tamamlandığında kariyerine Oracle Veritabanı Yöneticisi olarak devam etmek isteyen herkes ilgili alanlarda çalışabilecek temel bilgi ve beceri edinebilecektir.",
@@ -315,10 +315,10 @@ namespace BrightAcademyApp.Data.Migrations
                             CourseHours = 80,
                             Description = "Veritabanı sistemleri ve ilişkisel veritabanlarını sorgulama dili olan SQL dilinin daha da derinlere inerek T-SQL'i öğretmek. T-SQL sorguları oluşturma, veri türleriyle çalışma, verileri toplama işlevlerini kullanma ve hata işleme konusunda uygulamalı deneyim kazanılmasını sağlamak.",
                             EducationEvaluation = "Günümüzde Veri Bilimi, Makine Öğrenmesi, Yapay Zekâ, Büyük Veri gibi kavramlar oldukça popüler. Bu kavram ve teknolojileri besleyen asıl yapı verinin kendisidir.",
-                            EducationFinishTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1034),
+                            EducationFinishTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8112),
                             EducationGains = "TSQL kullaranarak SQL Server üzerinde ileri seviye kodlama yapabilir,TSQL fonksiyonlarını kullanmayı öğrenir.Veribilimi projelerinin gerek şartı olan veri önişleme işlemlerini gerçekleştirebilir.",
                             EducationLevel = "Medium",
-                            EducationStartTime = new DateTime(2023, 9, 14, 7, 40, 9, 51, DateTimeKind.Local).AddTicks(1034),
+                            EducationStartTime = new DateTime(2023, 9, 16, 8, 0, 46, 86, DateTimeKind.Local).AddTicks(8112),
                             EducationStatus = true,
                             EducationTime = 2,
                             EducationTitle = "TSQL ile Veritabanı programlama eğitimi SQL Server’ın temel dili olan TSQL’i kullanarak veritabanı üzerinde kodlama yapmayı öğretmeyi amaçlamaktadır.",
@@ -770,43 +770,43 @@ namespace BrightAcademyApp.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "b69e6273-31f7-417d-a2ab-08c3a1b4adaf",
-                            RoleId = "75606044-e0da-4df7-8e91-9ea41d31fe16"
+                            UserId = "b03b60c8-0778-4f72-84df-1ad99c1ac8f6",
+                            RoleId = "18d44fcf-ff26-44b1-b6d7-effb9704301e"
                         },
                         new
                         {
-                            UserId = "ebddca1e-a6ac-4af1-8cdc-175a534457de",
-                            RoleId = "5d0ac846-22b0-43cf-8b5d-6b9d3f6b01b4"
+                            UserId = "474cfafb-2b77-4bcd-ab59-c3ef16da20a5",
+                            RoleId = "5c87a7f5-4f84-4752-92e4-eae791308601"
                         },
                         new
                         {
                             UserId = "1",
-                            RoleId = "154e8035-0610-4840-9309-1c9d19e5c19e"
+                            RoleId = "0914c253-7399-4834-ba94-9dad54a72196"
                         },
                         new
                         {
                             UserId = "2",
-                            RoleId = "154e8035-0610-4840-9309-1c9d19e5c19e"
+                            RoleId = "0914c253-7399-4834-ba94-9dad54a72196"
                         },
                         new
                         {
                             UserId = "3",
-                            RoleId = "154e8035-0610-4840-9309-1c9d19e5c19e"
+                            RoleId = "0914c253-7399-4834-ba94-9dad54a72196"
                         },
                         new
                         {
                             UserId = "4",
-                            RoleId = "154e8035-0610-4840-9309-1c9d19e5c19e"
+                            RoleId = "0914c253-7399-4834-ba94-9dad54a72196"
                         },
                         new
                         {
                             UserId = "5",
-                            RoleId = "1cee760b-1b69-4d6b-8140-ac5149448a07"
+                            RoleId = "1111dd20-c022-43e0-aa44-4410fd4bcafe"
                         },
                         new
                         {
                             UserId = "6",
-                            RoleId = "1cee760b-1b69-4d6b-8140-ac5149448a07"
+                            RoleId = "1111dd20-c022-43e0-aa44-4410fd4bcafe"
                         });
                 });
 
@@ -841,31 +841,38 @@ namespace BrightAcademyApp.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "75606044-e0da-4df7-8e91-9ea41d31fe16",
+                            Id = "18d44fcf-ff26-44b1-b6d7-effb9704301e",
                             Name = "Admin",
                             NormalizedName = "ADMIN",
                             Description = "Admin Rolü"
                         },
                         new
                         {
-                            Id = "5d0ac846-22b0-43cf-8b5d-6b9d3f6b01b4",
+                            Id = "5c87a7f5-4f84-4752-92e4-eae791308601",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN",
                             Description = "Super Admin Rolü"
                         },
                         new
                         {
-                            Id = "1cee760b-1b69-4d6b-8140-ac5149448a07",
+                            Id = "1111dd20-c022-43e0-aa44-4410fd4bcafe",
                             Name = "Trainer",
                             NormalizedName = "TRANIER",
                             Description = "Trainer Rolü"
                         },
                         new
                         {
-                            Id = "154e8035-0610-4840-9309-1c9d19e5c19e",
+                            Id = "0914c253-7399-4834-ba94-9dad54a72196",
                             Name = "Traniee",
                             NormalizedName = "TRANIEE",
                             Description = "Traniee Rolü"
+                        },
+                        new
+                        {
+                            Id = "8fc6c250-186f-4fcc-b380-93e05f8a6702",
+                            Name = "User",
+                            NormalizedName = "USER",
+                            Description = "User Rolü"
                         });
                 });
 
@@ -925,13 +932,13 @@ namespace BrightAcademyApp.Data.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "19f7e53d-3fd9-4094-b5bc-ff6dcd76aa16",
+                            ConcurrencyStamp = "87f309f0-49d1-4588-8856-3b37086f84bb",
                             Email = "busradursun@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "BUSRADURSUN@GMAIL.COM",
                             NormalizedUserName = "BUSRADURSUN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMT2u7OSB341ZdDtPrcbEk4VWCAgrS3ipAy/NJvaT8Qtx7SR7b5Jrd0wb9dbRFBdHw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEI44dbp7fHtM30O/I1drP0hx/Ut5COwzdAGwL+2fhZhV9LO9mmKQ3K8ysi6DsDiAHA==",
                             PhoneNumber = "+905424597000",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "",
@@ -949,13 +956,13 @@ namespace BrightAcademyApp.Data.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0d04af61-7ab1-4ebb-8e9a-f7ae05071161",
+                            ConcurrencyStamp = "c21bed03-04a8-4383-ad74-b2090fc4057c",
                             Email = "erdincdursun@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ERDINCDURSUN@GMAIL.COM",
                             NormalizedUserName = "ERDINCDURSUN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBkOussHNOIzu+3EF7gz2nNLZW3lrHoDYQ/Fz+cq/e4vEPri5TQHHwqnp/sQRSfWGA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOHRUZ+SnCTyvcnDbgNWogC0Q5YwNHF/+3XB3gaWR9AGUXr4lWWp6Rhe9rxKrmKJvw==",
                             PhoneNumber = "+905424597000",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "",
@@ -973,7 +980,7 @@ namespace BrightAcademyApp.Data.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "fd046d4f-5b61-4b69-9ea9-5748f9a4a367",
+                            ConcurrencyStamp = "bb607630-9dfd-4ad8-acba-cc57a4e605f9",
                             Email = "seydanur@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
@@ -996,7 +1003,7 @@ namespace BrightAcademyApp.Data.Migrations
                         {
                             Id = "4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8fc1a511-5902-4081-89ce-b401a4e552f1",
+                            ConcurrencyStamp = "f64a0f01-8d95-4b24-bc39-d2db9c53a86c",
                             Email = "habibedursun@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
@@ -1073,13 +1080,13 @@ namespace BrightAcademyApp.Data.Migrations
                         {
                             Id = "5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "14360811-ff05-40c2-8cd7-d68223ee61f4",
+                            ConcurrencyStamp = "e0df2585-4b61-4464-8e87-1b099f0d7e4c",
                             Email = "arzuozturk@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ARZUOZTURK@GMAIL.COM",
                             NormalizedUserName = "ARZUOZTURK",
-                            PasswordHash = "AQAAAAIAAYagAAAAEC0i7/l1SvOAI1xO+csb6O+JEy0CY0fqOXIsArE08slz1XtFXZHkVtW1k872nfv7Xw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGRp3oAFT/AZQCUBo0QOQDJ+UqRq5iLsi9so0rQcqbg7q6wTtShlMkgQfpRjbCzpww==",
                             PhoneNumber = "+905424597000",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "",
@@ -1101,13 +1108,13 @@ namespace BrightAcademyApp.Data.Migrations
                         {
                             Id = "6",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5ce96608-6dd8-4415-b297-763176ac20ed",
+                            ConcurrencyStamp = "b7b80478-5fc7-4e6c-98bf-0a877a1e1ad2",
                             Email = "nazlıozturk@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "NAZLIOZTURK@GMAIL.COM",
                             NormalizedUserName = "NAZLIOZTURK",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFu8YJaxS0EmWpMJQeqdSe53o3G+nPr/KajDnqfVrLxcMhHHY03+RzH+i+eeP17jJg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOUIjrxHuRI6shC/BiO4GE1Tl9PrDlIEvdeEs1HwTzluzrd9UnpLajdKHw2RUy/3yw==",
                             PhoneNumber = "+905424597000",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "",
@@ -1145,15 +1152,15 @@ namespace BrightAcademyApp.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b69e6273-31f7-417d-a2ab-08c3a1b4adaf",
+                            Id = "b03b60c8-0778-4f72-84df-1ad99c1ac8f6",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "83e4853d-bb95-4ad1-9863-09bc8ff5b3ed",
+                            ConcurrencyStamp = "a366b992-7fee-4b22-a4a3-27f3f01a1a9e",
                             Email = "omerayaz@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "OMERAYAZ@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAENfg0a+4lp90jeEzIUxr6U7Frxi7iYL3gqtxGVJh9FeNJj3IsWSJMJt+BOc9fyQl+Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEN+OyHt92SqWPD3cOQPy1SSIBt3Luiw1LTeXieS7LJ0Q4KIcYSON9yPgNYQtHcmZdA==",
                             PhoneNumber = "+905424597000",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "",
@@ -1165,15 +1172,15 @@ namespace BrightAcademyApp.Data.Migrations
                         },
                         new
                         {
-                            Id = "ebddca1e-a6ac-4af1-8cdc-175a534457de",
+                            Id = "474cfafb-2b77-4bcd-ab59-c3ef16da20a5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c1d9598c-fb8a-4a47-98ca-6eed41451707",
+                            ConcurrencyStamp = "ec8b23fe-a46f-41ad-91a9-9294b185b88e",
                             Email = "aysehafsa@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "AYSEHAFSA@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEor/fADQibZJZoWk87lwrJLkY3OtN5kP6VxUVnDho37tmLVpn0jt0VbZqfjPBTl6Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEA6OeZ9m6Z2vWQZ2j3KQZPfjo1KlnSnCoXogBRMxeXEGwMOJElXX9aE2Tl2WQCH+/w==",
                             PhoneNumber = "+905424597000",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "",

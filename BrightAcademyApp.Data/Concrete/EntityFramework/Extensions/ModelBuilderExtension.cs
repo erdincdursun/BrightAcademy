@@ -19,7 +19,9 @@ namespace BrightAcademyApp.Data.Concrete.EntityFramework.Extensions
                 new Role { Name = "Admin",Description="Admin Rolü", NormalizedName="ADMIN"},
                 new Role { Name = "SuperAdmin", Description = "Super Admin Rolü", NormalizedName = "SUPERADMIN" },
                 new Role { Name = "Trainer", Description = "Trainer Rolü", NormalizedName = "TRANIER" },
-                new Role { Name = "Traniee", Description = "Traniee Rolü", NormalizedName = "TRANIEE" }
+                new Role { Name = "Traniee", Description = "Traniee Rolü", NormalizedName = "TRANIEE" },
+                new Role { Name = "User", Description = "User Rolü", NormalizedName = "USER" },
+
             };
             modelBuilder.Entity<Role>().HasData(roles);
             #endregion
