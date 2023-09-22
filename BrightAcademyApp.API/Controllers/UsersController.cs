@@ -116,40 +116,10 @@ namespace BrightAcademyApp.API.Controllers
 
         }
 
-        [HttpPost]
-        [Route("api/tranieeRegister/")]
-        public async Task<ActionResult<Trainee>> TranieeRegister(TranieeDto tranieeDto)
-        {
-            if (ModelState.IsValid)
-            {
-                Trainee user = new Trainee()
-                {
-                    FirstName = tranieeDto.FirstName,
-                    LastName = tranieeDto.LastName,
-                    Email = tranieeDto.Email,
-                    UserName = tranieeDto.UserName,
-                    Education = tranieeDto.Education
-
-                };
-
-                var result = await _userManager.CreateAsync(user, tranieeDto.Password);
-
-                if (result.Succeeded)
-                {
-                    await _userManager.AddToRoleAsync(user, "Traniee");
-                    return Ok("Kullanıcı başarıyla oluşturuldu.");
-                }
-                else
-                {
-
-                    return BadRequest();
-                }
-            }
-            return BadRequest();
+    
 
 
-
-        }
+      
     }
 }
 
