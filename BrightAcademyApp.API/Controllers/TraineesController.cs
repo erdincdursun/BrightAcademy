@@ -1,4 +1,5 @@
-﻿using BrightAcademyApp.Data.Concrete.EntityFramework.Contexts;
+﻿using BrightAcademyApp.Business.Abstract;
+using BrightAcademyApp.Data.Concrete.EntityFramework.Contexts;
 using BrightAcademyApp.Entity.Concrete;
 using BrightAcademyApp.Shared.ControllerBases;
 using BrightAcademyApp.Shared.DataTransferObject;
@@ -14,24 +15,24 @@ namespace BrightAcademyApp.API.Controllers
     [ApiController]
     public class TraineesController : CustomControllerBase
     {
-        private readonly UserManager<IdentityUser> _traineeManager;
+        private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        
+        private readonly ITraineeService _traineeManager;
 
-
-        public TraineesController(UserManager<IdentityUser> traineeManager, RoleManager<IdentityRole> roleManager, BrightAcademyAppDbContext dbContext)
+        public TraineesController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, ITraineeService traineeManager)
         {
-            _traineeManager = traineeManager;
+            _userManager = userManager;
             _roleManager = roleManager;
-            _dbContext = dbContext;
+            _traineeManager = traineeManager;
         }
+   
 
         [HttpGet]
         [Route("api/getAllTrainees/")]
         public async Task<IActionResult> GetAllTrainees()
         {
 
-           var trainees= await _dbContext.Users.Where( u => EF.Property<string>(u, "Discriminator") == "Trainee").ToListAsync();
+            var trainees = await _traineeManager.GetAllTrainees();
             return Ok(trainees);
 
         }
@@ -52,11 +53,11 @@ namespace BrightAcademyApp.API.Controllers
 
                 };
 
-                var result = await _traineeManager.CreateAsync(user, tranieeDto.Password);
+                var result = await _userManager.CreateAsync(user, tranieeDto.Password);
 
                 if (result.Succeeded)
                 {
-                    await _traineeManager.AddToRoleAsync(user, "Traniee");
+                    await _userManager.AddToRoleAsync(user, "Traniee");
                     return Ok("Öğrenci Kullanıcısı başarıyla oluşturuldu.");
                 }
                 else

@@ -13,7 +13,7 @@ namespace BrightAcademyApp.Business.Concrete
 {
     public class TrainerManager : ITrainerService
     {
-        private ITrainerRepository _trainerRepository;
+        private readonly ITrainerRepository _trainerRepository;
 
         public TrainerManager(ITrainerRepository trainerRepository)
         {
@@ -22,8 +22,8 @@ namespace BrightAcademyApp.Business.Concrete
 
         public async Task<List<IdentityUser>> GetAllTrainers()
         {
-            var trainees = await _trainerRepository.GetAllTrainers();
-            return trainees;
+            var trainers = await _trainerRepository.GetAllTrainers();
+            return trainers;
         }
     }
 }

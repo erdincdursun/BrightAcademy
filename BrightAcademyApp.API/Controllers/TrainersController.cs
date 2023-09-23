@@ -14,12 +14,12 @@ namespace BrightAcademyApp.API.Controllers
     [ApiController]
     public class TrainersController : CustomControllerBase
     {
-       private readonly UserManager<IdentityUser> _trainerManager;
+       private readonly UserManager<IdentityUser> _userManager;
         private readonly ITrainerService _trainerService;
 
-        public TrainersController(UserManager<IdentityUser> trainerManager, ITrainerService trainerService)
+        public TrainersController(UserManager<IdentityUser> userManager, ITrainerService trainerService)
         {
-            _trainerManager = trainerManager;
+            _userManager = userManager;
             _trainerService = trainerService;
         }
 
@@ -48,11 +48,11 @@ namespace BrightAcademyApp.API.Controllers
                     Branch = tranierDto.Branch
                 };
 
-                var result = await _trainerManager.CreateAsync(user, tranierDto.Password);
+                var result = await _userManager.CreateAsync(user, tranierDto.Password);
 
                 if (result.Succeeded)
                 {
-                    await _trainerManager.AddToRoleAsync(user, "Tranier");
+                    await _userManager.AddToRoleAsync(user, "Tranier");
                     return Ok("Eğitmen Kullanıcısı başarıyla oluşturuldu.");
                 }
                 else
