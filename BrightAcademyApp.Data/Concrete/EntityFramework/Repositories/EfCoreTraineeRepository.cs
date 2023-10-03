@@ -20,12 +20,15 @@ namespace BrightAcademyApp.Data.Concrete.EntityFramework.Repositories
         {
             get { return _dbContext as BrightAcademyAppDbContext; }
         }
-        public Task CreateAsync(Trainee entity)
+     
+        public Task CreateAsync(IdentityUser entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Trainee entity)
+   
+
+        public void Delete(IdentityUser entity)
         {
             throw new NotImplementedException();
         }
@@ -36,17 +39,19 @@ namespace BrightAcademyApp.Data.Concrete.EntityFramework.Repositories
             return trainees;
         }
 
-        public void Update(Trainee entity)
+      
+
+        public void Update(IdentityUser entity)
         {
             throw new NotImplementedException();
         }
 
-        Task<List<Trainee>> IGenericRepository<Trainee>.GetAllAsync()
+        Task<List<IdentityUser>> IGenericRepository<IdentityUser>.GetAllAsync()
         {
             throw new NotImplementedException();
         }
 
-        Task<Trainee> IGenericRepository<Trainee>.GetByIdAsync(int? id)
+        Task<IdentityUser> IGenericRepository<IdentityUser>.GetByIdAsync(int? id)
         {
             throw new NotImplementedException();
         }
