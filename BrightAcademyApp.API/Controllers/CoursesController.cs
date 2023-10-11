@@ -22,15 +22,16 @@ namespace BrightAcademyApp.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCourses()
         {
-            var response = await _courseManager.GetCoursesFullDataAsync(true); 
-            return CreateActionResult(response);
+            var response = await _courseManager.GetCoursesFullDataAsync(true);
+         
+            return Ok(response);
           
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCourse(int id)
         {
             var response = await _courseManager.GetCourseByIdAsync(id);
-            return CreateActionResult(response);
+            return Ok(response);
 
         }
         [HttpPost]

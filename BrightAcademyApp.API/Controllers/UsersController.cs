@@ -116,6 +116,19 @@ namespace BrightAcademyApp.API.Controllers
 
         }
 
+        [HttpDelete]
+        [Route("api/deleted")]
+        public async Task<IActionResult> Delete(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                return NotFound("Kullanıcı bulunamadı");
+            }
+            _userManager.DeleteAsync(user);
+            return Ok();
+        }
+
     
 
 

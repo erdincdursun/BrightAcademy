@@ -1,15 +1,17 @@
 import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import Main from '@/components/Main'
-import axios from 'axios'
+import Navbar from '@/components/Navbar';
 import '@/styles/globals.css'
+import { Route, Routes } from 'react-router-dom';
+import CourseDetail from './courseDetail';
+
+
 
 export default function App({ Component, pageProps }) {
+
   return (
     <>
-      <Header />
+      <Navbar />
       <Component {...pageProps} />
-      <Main />
       <Footer />
     </>
   )

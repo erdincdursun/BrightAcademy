@@ -25,8 +25,8 @@ namespace BrightAcademyApp.API.Controllers
             _roleManager = roleManager;
             _traineeManager = traineeManager;
         }
-   
 
+        #region AllTrainees
         [HttpGet]
         [Route("api/getAllTrainees/")]
         public async Task<IActionResult> GetAllTrainees()
@@ -36,7 +36,8 @@ namespace BrightAcademyApp.API.Controllers
             return Ok(trainees);
 
         }
-
+        #endregion
+        #region RegisterTrainee
         [HttpPost]
         [Route("api/tranieeRegister/")]
         public async Task<ActionResult<Trainee>> TranieeRegister(TranieeDto tranieeDto)
@@ -71,6 +72,9 @@ namespace BrightAcademyApp.API.Controllers
 
 
         }
+        #endregion
+
+
 
 
     }
