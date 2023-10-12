@@ -19,14 +19,17 @@ namespace BrightAcademyApp.API.Controllers
             _courseManager = courseManager;
         }
 
+        #region GetAll
         [HttpGet]
         public async Task<IActionResult> GetCourses()
         {
             var response = await _courseManager.GetCoursesFullDataAsync(true);
-         
+
             return Ok(response);
-          
+
         }
+        #endregion
+        #region GetId
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCourse(int id)
         {
@@ -34,6 +37,8 @@ namespace BrightAcademyApp.API.Controllers
             return Ok(response);
 
         }
+        #endregion
+        #region Create
         [HttpPost]
         [Route("/api/[controller]/CreateCourse")]
         public async Task<IActionResult> CreateCourse(CourseCreateDto courseCreateDto)
@@ -41,6 +46,8 @@ namespace BrightAcademyApp.API.Controllers
             var response = await _courseManager.CreateAsync(courseCreateDto);
             return CreateActionResult(response);
         }
+        #endregion
+        #region Delete
         [HttpDelete]
         public async Task<IActionResult> DeleteCourse(int id)
         {
@@ -51,11 +58,15 @@ namespace BrightAcademyApp.API.Controllers
             }
             return BadRequest();
         }
+        #endregion
+        #region Update
         [HttpPut]
         public async Task<IActionResult> UpdateCourse(int id, CourseDto courseDto)
         {
             _courseManager.UpdateAsync(id, courseDto);
             return NoContent(); //204
         }
+        #endregion
+
     }
 }

@@ -18,6 +18,7 @@ namespace BrightAcademyApp.API.Controllers
             _categoryManager = categoryManager;
         }
 
+        #region GetAll
         [HttpGet]
         public async Task<IActionResult> GetCategories()
         {
@@ -29,7 +30,8 @@ namespace BrightAcademyApp.API.Controllers
             var jsonResult = JsonSerializer.Serialize(response);
             return Ok(jsonResult);
         }
-
+        #endregion
+        #region GetId
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -37,14 +39,16 @@ namespace BrightAcademyApp.API.Controllers
             var jsonResult = JsonSerializer.Serialize(response);
             return Ok(jsonResult);
         }
-
+        #endregion
+        #region Create
         [HttpPost]
         public async Task<IActionResult> Create(CategoryCreateDto categoryCreateDto)
         {
             var response = await _categoryManager.CreateAsync(categoryCreateDto);
             return CreateActionResult(response);
         }
-
+        #endregion
+        #region Delete
         [HttpDelete]
         public async Task<IActionResult> DeleteCategory(int id)
         {
@@ -55,11 +59,16 @@ namespace BrightAcademyApp.API.Controllers
             }
             return BadRequest();
         }
+        #endregion
+        #region Update
         [HttpPut]
-        public async Task<IActionResult> Update(int id,CategoryDto categoryDto)
+        public async Task<IActionResult> Update(int id, CategoryDto categoryDto)
         {
             _categoryManager.UpdateAsync(id, categoryDto);
             return NoContent(); //204
         }
+        #endregion
+
+
     }
 }

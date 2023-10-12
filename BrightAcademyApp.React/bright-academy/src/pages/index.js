@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Axios from 'axios';
-
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 import Head from 'next/head';
 import Main from '@/components/Main';
 
@@ -14,11 +11,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [courses, setCourses] = useState([])
-
-
-
-
-
   useEffect(() => {
     axios
       .get('https://localhost:7263/api/Courses')
@@ -26,12 +18,10 @@ export default function Home() {
 
   }, [])
 
-
   console.log(courses);
 
   return (
     <>
-
       <Head>
         <title>Bright Academy</title>
         <meta name="description" content="Bright Academy Yazılım Eğitimleri" />
@@ -39,7 +29,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main courses={courses} />
-
     </>
   )
 }
