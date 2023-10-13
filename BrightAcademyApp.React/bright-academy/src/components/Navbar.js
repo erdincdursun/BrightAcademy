@@ -20,7 +20,7 @@ export default function Navbar() {
                     <Link href={"/contact"} className="mr-5 hover:text-gray-900">İletişim</Link>
 
                 </nav>
-                <button style={{ margin: '5px', border: '2px solid white', borderRadius: '12px' }} ><Link href={"/register"}><span style={{ margin: '20px', padding: '2px' }}>Kaydol</span> </Link>
+                <button style={{ margin: '5px', border: '2px solid white', borderRadius: '12px' }} ><Link href={"/login"}><span style={{ margin: '20px', padding: '2px' }}>Kaydol</span> </Link>
 
                 </button>
                 <button style={{ margin: '5px', border: '2px solid white', borderRadius: '12px' }} ><Link href={"/login"}> <span style={{ margin: '20px', padding: '2px' }}>Giriş Yap</span>  </Link>

@@ -1,0 +1,23 @@
+userName = admin
+Şifre : Qwe123.
+
+userName :superadmin
+Şifre : Qwe123.
+
+userName :busradursun
+Şifre : Qwe123.
+
+userName :erdincdursun
+Şifre : Qwe123.
+
+userName :habibedursun
+Şifre : Qwe123.
+
+userName :arzuozturk
+Şifre : Qwe123.
+
+
+userName :nazliozturk
+Şifre : Qwe123.
+
+

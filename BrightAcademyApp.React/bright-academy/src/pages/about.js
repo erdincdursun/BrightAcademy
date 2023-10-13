@@ -5,8 +5,10 @@ export default function About() {
         <section class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
                 <div class="text-center mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Raw Denim Heirloom Man Braid</h1>
-                    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
+                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Bright Academy Nedir?</h1>
+                    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Bahçeşehir Üniversitesi tarafından yürütülen ve proje deneyimi yüksek eğitici kadrosu ile fark yaratacak yazılım - sistem uzmanları yetiştiren bir kariyer programıdır. Sektör ihtiyaçları göz önünde bulundurularak hazırlanmış güncel ve son teknoloji eğitim içerikleriyle BAU Bright eğitimleri devam ediyor! Eğitimini tamamlayan adaylar bilişim sektöründe işe yerleştirilmektedir.
+
+                    </p>
                 </div>
                 <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                     <div class="p-2 sm:w-1/2 w-full">
@@ -15,7 +17,7 @@ export default function About() {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Authentic Cliche Forage</span>
+                            <span class="title-font font-medium">Uygulamalı Eğitimler</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
@@ -24,7 +26,7 @@ export default function About() {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Kinfolk Chips Snackwave</span>
+                            <span class="title-font font-medium">Proje</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
@@ -33,7 +35,7 @@ export default function About() {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Coloring Book Ethical</span>
+                            <span class="title-font font-medium">İş Hayatı</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
@@ -42,7 +44,7 @@ export default function About() {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Typewriter Polaroid Cray</span>
+                            <span class="title-font font-medium">Kariyer Danışmanlığı</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
@@ -51,7 +53,7 @@ export default function About() {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Pack Truffaut Blue</span>
+                            <span class="title-font font-medium">Sektörün ihtiyaçlarına yönelik eğitimler</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
@@ -60,11 +62,11 @@ export default function About() {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">The Catcher In The Rye</span>
+                            <span class="title-font font-medium">İstihdam</span>
                         </div>
                     </div>
                 </div>
-                <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Hemen Kayıt Ol</button>
             </div>
         </section>
     )
